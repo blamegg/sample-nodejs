@@ -13,7 +13,7 @@ app.get("/api/hello", (req, res) => {
   res.json({ message: "Hello from Express!" });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5173;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
